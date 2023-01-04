@@ -1,0 +1,57 @@
+@import "bootstrap.css";
+@font-face {
+  font-family: "Pinar-VF";
+  src: url("Pinar-V2/Statics/ttf/FD(Farsi Digits instead Latin)/Pinar-FD-Regular.ttf");
+}
+
+.font-pinar{
+  font-family: "Pinar-VF", serif !important;
+}
+
+body{
+
+  background-image: url("../image/triangles-top.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: wheat;
+}
+
+main *{
+  padding: 0 !important ;
+  margin:  0 !important;
+  box-sizing: border-box !important;
+}
+
+.overflow-y {
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+
+}
+.glass{
+  background-color: rgba(255, 255, 255, 0.44);
+  backdrop-filter: blur(20px);
+}
+
+.about-section{
+  &::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px ;
+    max-height: 50px !important; height: 50px !important;
+  }
+  &::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: wheat;
+    border-radius: 10px ;
+  }
+}
+
+
+
+
+.text-justify{
+  text-align: justify !important;
+}
+.line-height-2{
+  line-height: 30px;
+}
+
